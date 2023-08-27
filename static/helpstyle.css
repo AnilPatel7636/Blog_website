@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(188, 145, 145);
+}
+#contact-container{
+    min-height: 77vh;
+}
+
+#contact-us{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.boxes img{
+    height: 50px;
+   margin: auto;
+   display:inline-block;
+   margin-left: 80px;
+   margin-right: 80px;
+   margin-bottom: 20px;
+
+
+}
+.boxes img:hover{
+    cursor: pointer;
+    height: 58px;
+}
+.heading{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.text{
+    text-align: center;
+    border: 5px solid navy;
+    border-radius: 30px;
+    margin: 100px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding: 50px;
+    font-family: cursive;
+    background: center/cover no-repeat url("/static/images/partner.jpg.jpg");
+    font-weight: bolder;
+
+}
